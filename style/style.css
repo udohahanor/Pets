@@ -7,7 +7,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(180deg,rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(/src/img/bg-img.jpg);
+    background-color: black;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px 2%;
+    padding: 20px 2%;
     list-style: none;
 }
 
@@ -51,4 +51,10 @@
     list-style: none;
     display: inline-block;
     padding: 0% 20px;
+}
+
+.carousel
+{
+    height: 10%;
+    width: auto;
 }
